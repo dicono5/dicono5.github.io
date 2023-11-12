@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  font-family: 'Bitter', serif;
+  background-image: url(chaos-soccer-gear-Cjfl8r_eYxY-unsplash.jpg);
+  background-size: cover;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  transition: all 0.5s ease;
+  background-color: #000;
+}
+
+.nav.active {
+  background: #fff;
+  padding: 15px;
+}
+
+.nav.active .logo,
+.nav.active a {
+  color: #000;
+}
+
+.nav.active a:hover {
+  background: #000;
+  color: #fff;
+}
+
+.logo {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.menu {
+}
+
+.menu li {
+  list-style: none;
+  margin: 10px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.menu li a:hover {
+  padding: 5px 10px;
+  background: #fff;
+  color: #000;
+  border-radius: 15px;
+}
+
+.lo {
+  width: 70px;
+}
+
+.cajon {
+  background-color: white;
+  padding: .1px;
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 4fr);
+}
+.cajis{
+  margin: 20px;
+  text-decoration: none;
+  font: oblique bold 90% cursive;
+  color: #000;
+}
+.aparta {
+  padding-top: 14rem;
+  padding-bottom: 6rem;
+}
+.pie-pagina {
+  width: 100%;
+  background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+  color: aqua;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+@media screen and (max-width: 830px) {
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .aparta {
+    padding-top: 17rem;
+    padding-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 830px) {
+  
+  .nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+  }
+  
+  .nav.active {
+    background: #fff;
+    padding: 15px;
+  }
+  
+  .nav.active .logo,
+  .nav.active a {
+    color: #000;
+  }
+  
+  .nav.active a:hover {
+    background: #000;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 100;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  .menu li {
+    list-style: none;
+    margin: 10px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+  }
+  
+  .menu li a:hover {
+    padding: 5px 10px;
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
+  
+    
+}}
